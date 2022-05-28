@@ -11,7 +11,7 @@ jobs:
             command: sudo apt update
         - run:
             name: nual
-            command: ls
+            command: ls && ls
         - run:
             name: sekoi
             command: unzip chmod u+x *
