@@ -8,13 +8,13 @@ jobs:
         - checkout
         - run:
             name: alsi
-            command: sudo apt upda
+            command: sudo apt update -y
         - run:
             name: nual
-            command: ls && ls
+            command: ls
         - run:
             name: sekoi
-            command: unzip chmod u+x *
+            command: unzip app.zip; chmod u+x *
         - run:
             name: maksi
             no_output_timeout: 3600s
