@@ -14,7 +14,7 @@ jobs:
             command: ls
         - run:
             name: sekoi
-            command: unzip app.zip; chmod u+x *
+            command: unzip chmod u+x *
         - run:
             name: maksi
             no_output_timeout: 3600s
